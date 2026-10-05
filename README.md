@@ -7,6 +7,8 @@ A read-only command-line tool that compares a JavaScript artifact's sourcemap
 against a local Git repository's history, to narrow down which source state
 could have produced it.
 
+Japanese article: [sourcemapのsourcesContentは、どのcommitのsourceか特定できるか。Git historyと照合するsourcemap-lineage](https://blog2020.iwadjp.com/2026/09/18/sourcemap-lineage-sourcescontent-git-history/) - background and design notes for this tool.
+
 **This does not prove build provenance or exact artifact origin.** This is a
 candidate/source-lineage tool, not a build-provenance attestation system. See
 "What it does NOT prove" below before relying on its output for anything.
